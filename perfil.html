@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Yeraliz</title>
+</head>
+<body>
+    <style>
+        body{
+            background-color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+        .perfil{
+            margin: 20px auto;
+            width: 800px;
+            max-width: auto;
+            background-color: blueviolet;
+            padding: 20px;
+            box-shadow: 0 0 10px black;
+        }
+        .foto-perfil{
+            width: 250px;
+            height: 180px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+    </style>
+    <div class="perfil">
+        <img src="imagen panda/panda.jpg" alt="pandita"
+        class="foto-perfil">
+        <h1 id="nombre">Nombre de perfil</h1>
+        <h3 id="especialidad">especialidad del cetis</h3>
+        <h2>Gustos personales</h2>
+        <li id="musica">Musica favorita</li>
+        <li id="programas">Programas favoritos</li>
+        <h2>Informacion de contacto</h2>
+        <p id="telefono">telefono</p>
+        <p id="correo">correo</p>
+        <p id="biografia">biografia</p>
+        
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            document.getElementById('nombre').textContent='Yeraliz Perez';
+            document.getElementById('especialidad').textContent='programacion';
+            document.getElementById('musica').textContent='Twenty one pilots, AC/DC, Jose Jose, Cumbias';
+            document.getElementById('programas').textContent='Kick Buttouski, La rosa de Guadalupe, Bajoterra';
+            document.getElementById('telefono').textContent='8999123809';
+            document.getElementById('correo').textContent='yeraaperezz@gmail.com';
+            document.getElementById('biografia').textContent='a hueso, programanding';
+
+        })
+    </script>
+</body>
+</html>
+</body>
+</html>
